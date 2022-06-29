@@ -1373,7 +1373,7 @@ input, select, textarea {
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: #66ccff;
 					}
 
 		#header nav.use-middle:after {
