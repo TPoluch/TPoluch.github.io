@@ -1713,4 +1713,4 @@ input, select, textarea {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-.dropdown:hover .dropbtn {background-color: slategray}
+.dropdown:hover .dropbtn {background-color: #6600FF}
