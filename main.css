@@ -1369,13 +1369,15 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: #6600ff;
 						font-weight: bold;
+						font-size: medium;
+						box-shadow: 0px 0px .3em .2em #eeeeee;
+						background-color: #000000;
+						color: #eeeeee;
 					}
 
 					#header nav ul li a:active {
-						background-color: #66ccff;
-						
+						background-color: darkgrey;
 					}
 
 		#header nav.use-middle:after {
@@ -1666,8 +1668,10 @@ input, select, textarea {
   background-color: #343D46;
   color: white;
   margin: 1px;
-  font-size: 12px;
+  font-size: smaller;
   border: none;
+	font-weight: bold;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -1682,24 +1686,30 @@ input, select, textarea {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: white;
+	background-color: #343D46;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #212327;
+	color: #eeeeee;
+	font-weight: bold;
+	box-shadow: 0px 0px 0em .1em #eeeeee;
+	position: relative
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #6600ff;}
+
+.dropdown:hover .dropbtn {background-color: slategray}
