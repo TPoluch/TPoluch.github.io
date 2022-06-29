@@ -1370,10 +1370,10 @@ input, select, textarea {
 					#header nav ul li a:hover {
 						font-weight: bold;
 						font-size: medium;
-						box-shadow: 0px 0px .5em .4em #eeeeee;
-						background-color: #000000;
+						background-color: #6600FF;
 						color: #eeeeee;
 						position: relative;
+						text-shadow: 2px 2px  #6600FF;
 					}
 					#header nav ul li a:active {
 						background-color: darkgrey;
@@ -1696,18 +1696,20 @@ input, select, textarea {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+	border: none;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #212327;
 	color: #eeeeee;
 	font-weight: bold;
-	box-shadow: 0px 0px 0em .1em #eeeeee;
-	position: relative
+	box-shadow: 0px 0px 0em .1em #6600FF;
+	position: relative;
+	text-shadow: 2px 2px  #6600FF;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
