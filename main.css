@@ -1373,7 +1373,6 @@ input, select, textarea {
 						background-color: #6600FF;
 						color: #eeeeee;
 						position: relative;
-						text-shadow: 2px 2px  #6600FF;
 					}
 					#header nav ul li a:active {
 						background-color: darkgrey;
