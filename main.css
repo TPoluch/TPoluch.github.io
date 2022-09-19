@@ -1712,3 +1712,31 @@ input, select, textarea {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {background-color: #6600FF}
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: gray();
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 200%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
