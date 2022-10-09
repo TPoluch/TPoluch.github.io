@@ -1369,10 +1369,11 @@ input, select, textarea {
 					background-color: rgba(0,0,0,0.4);
 					backdrop-filter: blur(0.5rem);
 					border-radius: 25px;
+					font-weight: bold;
 
 				}
 					#header nav ul li a:hover {
-						font-weight: bold;
+						
 							color: #ffffff;
 
   position: relative;
@@ -1484,7 +1485,7 @@ input, select, textarea {
 			}
 
 				#header .content .inner {
-					padding: 2.5rem 0;
+					padding: 1rem 1rem;
 				}
 
 				#header nav ul {
@@ -1498,7 +1499,6 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
 					}
 
 						#header nav ul li:first-child {
