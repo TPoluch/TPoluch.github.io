@@ -1362,6 +1362,7 @@ input, select, textarea {
 
 				}
 					#header nav ul li a:hover {
+						font-size: medium;
 						font-weight: bold;
 							color: #ffffff;
 
