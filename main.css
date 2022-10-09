@@ -6,7 +6,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1148,23 +1147,18 @@ input, select, textarea {
  repeat;
 			z-index: 2;
 		}
+		body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
 
-		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("Polygonbackground.png");
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
-			z-index: 1;
-		}
-
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("philly.jpg" );
+}
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
@@ -1214,7 +1208,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: inherit;
 			}
 
 		}
@@ -1222,7 +1216,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 2rem 1rem;
+				padding: inherit;
 			}
 
 		}
@@ -1230,7 +1224,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				padding: 1rem;
+				padding: inherit;
 			}
 
 		}
@@ -1308,6 +1302,7 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			backdrop-filter: blur(0.4rem);
 		}
 
 			#header .content .inner {
@@ -1322,6 +1317,7 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+
 			}
 
 				#header .content .inner > :last-child {
@@ -1343,13 +1339,14 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
+			border-top: solid 1px #ffffff;
+			border-bottom: solid 1px #ffffff;
+			backdrop-filter: blur(.4rem);
+
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
 			}
 
 				#header nav ul li:first-child {
@@ -1366,16 +1363,27 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+
 				}
 					#header nav ul li a:hover {
 						font-weight: bold;
-						font-size: medium;
-						background-color: #6600FF;
-						color: #eeeeee;
-						position: relative;
+							color: #ffffff;
+
+  position: relative;
+  z-index: 1;
+						border: #eeeeee;
+						border-style: solid;
+						box-shadow: 0px 0px 1.5rem #ffffff;
+						background-color: #1b1f22;
+						border-width: 2px;
+						border-radius: 5px;
+
+
 					}
 					#header nav ul li a:active {
-						background-color: darkgrey;
+						background-color: #a8a8a8;
+						color: #242323;
+						backdrop-filter: blur(.75rem)
 					}
 
 		#header nav.use-middle:after {
@@ -1384,7 +1392,6 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
 			height: 100%;
 			background: #ffffff;
 		}
@@ -1691,7 +1698,7 @@ input, select, textarea {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: white;
-	background-color: #343D46;
+	background-color: dimgray;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -1702,7 +1709,8 @@ input, select, textarea {
 .dropdown-content a:hover {background-color: #212327;
 	color: #eeeeee;
 	font-weight: bold;
-	box-shadow: 0px 0px 0em .1em #6600FF;
+	box-shadow: 0px 0px 1.5em .2em #ffffff;
+	border-radius: 1px;
 	position: relative;
 }
 
@@ -1711,7 +1719,8 @@ input, select, textarea {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-.dropdown:hover .dropbtn {background-color: #6600FF}
+.dropdown:hover .dropbtn {background-color: slategray;
+}
 
 .hovertext {
   position: relative;
