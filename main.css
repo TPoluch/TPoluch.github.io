@@ -1673,6 +1673,10 @@ input, select, textarea {
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
+				border-radius: 25px;
+				border: 0.5px solid gray;
+				backdrop-filter: blur(0.5rem);
+				box-shadow: 0 0 10rem #000000;
 			}
 
 			#main article .close {
