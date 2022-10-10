@@ -1777,7 +1777,7 @@ input, select, textarea {
 		}
 		/* Dropdown Button */
 .dropbtn {
-  background-color: #343D46;
+  background-color: #3e4b87;
   color: white;
   margin: 1px;
   font-size: smaller;
@@ -1797,7 +1797,7 @@ input, select, textarea {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #a3a3a3;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -1813,20 +1813,19 @@ input, select, textarea {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #212327;
+.dropdown-content a:hover {background-color: #3e4b87;
 	color: #eeeeee;
-	font-weight: bold;
-	box-shadow: 0px 0px 1.5em .2em #ffffff;
-	border-radius: 1px;
+	box-shadow: 0px 0px 1em .1em #ffffff;
+	border: 2px solid #ff9900;
 	position: relative;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block; }
+.dropdown:hover .dropdown-content {display: block; border-radius: 15px;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-.dropdown:hover .dropbtn {background-color: slategray;
+.dropdown:hover .dropbtn {background-color: #ff9900;
 }
 
 .hovertext {
