@@ -1178,6 +1178,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 			box-shadow: 0 5px 1rem #000000;
 			border-radius: 25px;
 					 font-weight: bold;
+	background-color: rgba(22, 34, 54, 0.85);
 }
 .bubbly-button:focus {
 
@@ -1671,7 +1672,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			position: left;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(22, 34, 54, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
