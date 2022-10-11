@@ -147,10 +147,10 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+		-moz-transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-bottom-color 0.5s ease-in-out;
+		-webkit-transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-bottom-color 0.5s ease-in-out;
+		-ms-transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-bottom-color 0.5s ease-in-out;
+		transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, border-bottom-color 0.5s ease-in-out;
 		text-decoration: none;
 		color: inherit;
 	}
@@ -393,10 +393,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-moz-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+		-webkit-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+		-ms-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+		transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ffffff;
@@ -510,10 +510,10 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+				-moz-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+				-webkit-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+				-ms-transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
+				transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out;
 				border-radius: 4px;
 				border: solid 1px #ffffff;
 				content: '';
@@ -1005,10 +1005,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+		-webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+		-ms-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+		transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
@@ -1133,10 +1133,10 @@ input, select, textarea {
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("overlay.png");
 			background-size: auto,
  256px 256px;
@@ -1178,7 +1178,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 			box-shadow: 0 5px 1rem #000000;
 			border-radius: 25px;
 					 font-weight: bold;
-	background-color: rgba(22, 34, 54, 0.85);
+	background-color: rgba(22, 34, 54,.8);
 }
 .bubbly-button:focus {
 
@@ -1234,11 +1234,11 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 }
 .bubbly-button.animate:before {
   display: block;
-  animation: topBubbles ease-in-out 0.75s forwards;
+  animation: topBubbles ease-in-out 0.5s forwards;
 }
 .bubbly-button.animate:after {
   display: block;
-  animation: bottomBubbles ease-in-out 0.75s forwards;
+  animation: bottomBubbles ease-in-out 0.5s forwards;
 }
 
 @keyframes topBubbles {
@@ -1413,10 +1413,10 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
+				-moz-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.325s ease-in-out;
+				-webkit-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.325s ease-in-out;
+				-ms-transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.325s ease-in-out;
+				transition: max-height 0.5s ease, padding 0.5s ease, opacity 0.325s ease-in-out;
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
@@ -1684,7 +1684,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 				transform: translateY(0);
 				opacity: 1;
 				border-radius: 25px;
-				border: 0.5px solid gray;
+				border: 1.5px solid #ff9900;
 				backdrop-filter: blur(0.5rem);
 				box-shadow: 0 0 10rem #000000;
 			}
@@ -1703,10 +1703,10 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			}
 
 				#main article .close:before {
-					-moz-transition: background-color 0.2s ease-in-out;
-					-webkit-transition: background-color 0.2s ease-in-out;
-					-ms-transition: background-color 0.2s ease-in-out;
-					transition: background-color 0.2s ease-in-out;
+					-moz-transition: background-color 0.5s ease-in-out;
+					-webkit-transition: background-color 0.5s ease-in-out;
+					-ms-transition: background-color 0.5s ease-in-out;
+					transition: background-color 0.5s ease-in-out;
 					content: '';
 					display: block;
 					position: absolute;
@@ -1947,7 +1947,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
   float: left;
   cursor: pointer;
   opacity: 1;
-  transition: all 0.25s;
+  transition: all 0.5s;
 	border-radius: 25px;
 	background-color: #233657;
 	margin: .4rem;
@@ -1962,7 +1962,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
   width: 0;
   opacity: 1;
   white-space: nowrap;
-  transition: all .25s;
+  transition: all .5s;
   box-sizing: border-box;
   background-color: rgba(0,0,0,0.1);
   border-radius: 4px;
@@ -1979,15 +1979,15 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 	background-color: #ff9900;
 	color: #ffffff;
 	border-radius: 25px;
-	transition: all .25s;
+	transition: all .1s;
 	box-shadow: 0 0 .5rem #ffffff;
-
+margin: 5px;
 }
 
 .projects-list li:hover:after {
   width: 75px;
   opacity: 1;
-	transition-delay: 0.25s;
+	transition-delay: 0.5s;
 }
 
 /*.projects-list .Python {*/
