@@ -51,28 +51,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Wrapper -->
-<div id="wrapper">
-<div id="particles-js"></div>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+<div id="wrapper" style="padding: 0">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+<!--<div id="particles-js"></div>-->
+<!--    <script src="particles.js"></script>-->
+<!--    <script src="app.js"></script>-->
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" >
         <div class="content">
-            <div class="inner">
-                <h1><b>Anthony Poluch</b></h1>
-                <p>Senior Business Intelligence Analyst</p>
+            <div class="inner" style="
+background: #465EAF;
+background: -webkit-linear-gradient(top left, #465EAF, #250E7A);
+background: -moz-linear-gradient(top left, #465EAF, #250E7A);
+background: linear-gradient(to bottom right, #465EAF, #250E7A); border-radius: 25px; border: 3px solid #ff9900" >
+                <h1 style="color: #ffffff;"><b>Anthony Poluch</b></h1>
+                <p \><b>Senior Business Intelligence Analyst</b></p>
             </div>
         </div>
         <nav>
             <ul>
-                <a href="#about" style="border-radius: 25px" ><button class="bubbly-button" >About</button></a>
+                <a href="#about" style="border-radius: 25px"><button class="bubbly-button" style="margin: 8px">About</button></a>
                 <script src="script.js"></script>
-                <a href="#work" style="border-radius: 25px" ><button class="bubbly-button" >Skills</button></a>
+                <a href="#work" style="border-radius: 25px" ><button class="bubbly-button" style="margin: 8px">Skills</button></a>
                 <script src="script.js"></script>
-                <a href="#projects" style="border-radius: 25px" ><button class="bubbly-button" >Projects</button></a>
+                <a href="#projects" style="border-radius: 25px" ><button class="bubbly-button" style="margin: 8px">Projects</button></a>
                 <script src="script.js"></script>
-                <a href="#contact" style="border-radius: 25px" ><button class="bubbly-button" >Contact</button></a>
+                <a href="#contact" style="border-radius: 25px" ><button class="bubbly-button" style="margin: 8px">Contact</button></a>
                 <script src="script.js"></script>
                 <!--<li><a href="#elements">Elements</a></li>-->
             </ul>
@@ -80,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <!-- Main -->
-    <div id="main">
+    <div id="main" style="margin-bottom: 5px">
 
         <!-- About -->
         <article id="about">
@@ -447,7 +462,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <footer id="footer">
         <p><br><br><br><br><br></p>
     </footer>
-
+</div>
 </div>
 
 <!-- BG -->
