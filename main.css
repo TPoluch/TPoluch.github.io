@@ -151,7 +151,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -1014,7 +1013,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px #ffffff;
-		color: #ffffff !important;
+		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8rem;
@@ -1078,7 +1077,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #1b1f22 !important;
+			color: #233657 !important;
 			font-weight: 600;
 		}
 
@@ -1146,17 +1145,23 @@ input, select, textarea {
 			background-repeat: no-repeat,
  repeat;
 			z-index: 2;
+			/* Created with https://www.css-gradient.com */
+background: #465EAF;
+background: -webkit-linear-gradient(top left, #465EAF, #250E7A);
+background: -moz-linear-gradient(top left, #465EAF, #250E7A);
+background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 		}
-
 #particles-js {
   position: fixed;
   width: 100%;
   height: 100%;
 	background-size: cover;
-	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("philly.jpg" );
+	background-image: none;
 }
+
 .bubbly-button {
   display: block;
+	color: #ffffff;
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
@@ -1166,29 +1171,35 @@ input, select, textarea {
 					font-size: 0.8rem;
 					border-bottom: 0;
 								border-style: solid;
-					margin: 0 10px 0rem 10px;
+					margin: 0 0px 0rem 0px;
 			border-width: 1px;
-			border-color: #ffffff;
+			border-color: #ff9900;
 			max-width: 100%;
-			box-shadow: 0 0 1rem #000000;
-			background-color: rgba(0,0,0,0.4);
-					backdrop-filter: blur(0.5rem);
+			box-shadow: 0 5px 1rem #000000;
 			border-radius: 25px;
 					 font-weight: bold;
 }
 .bubbly-button:focus {
+
 }
 .bubbly-button:hover{
-	color: #ffffff;
-	background-color: #3e4b87;
-						position: relative;
-						border: #3e4b87;
-						border-style: solid;
-						border-width: 2px;
-						border-radius: 5px;
-						box-shadow: 0 0 5rem #3e4b87;
-			border-radius: 25px;
-
+	min-width: 10rem;
+					height: 3rem;
+					line-height: normal;
+	font-weight: bold;
+	font-size: medium;
+	transition-property: all;
+	color: #233657;
+background: #B7B7B7;
+background: -webkit-linear-gradient(top left, #B7B7B7, #DDDDDD);
+background: -moz-linear-gradient(top left, #B7B7B7, #DDDDDD);
+background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
+	position: relative;
+	border-color: #3222A9;
+	border-style: solid;
+	border-width: 2.5px;
+	box-shadow: 0px 0px .7rem  #a8a8a8;
+	border-radius: 25px;
 }
 .bubbly-button:before, .bubbly-button:after {
   position: absolute;
@@ -1217,7 +1228,7 @@ input, select, textarea {
 .bubbly-button:active {
   transform: scale(0.9);
   background-color: #a8a8a8;
-	color: #242323;
+	color: #233657;
   box-shadow: 0 2px 25px #ffffff;
 }
 .bubbly-button.animate:before {
@@ -1393,12 +1404,11 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-width: 2px;
-			border-color: #ffffff;
 			max-width: 100%;
 			backdrop-filter: blur(0.5rem);
-			box-shadow: 0 0 8rem #000000;
-			background-color: rgba(0,0,0,0.5);
-			border-radius: 30px;
+			box-shadow: 0 0 4rem #000000;
+			border-radius: 25px;
+			border-color: #ff9900;
 		}
 
 			#header .content .inner {
@@ -1473,10 +1483,9 @@ input, select, textarea {
 				}
 					#header nav ul li a:hover {
 						
-						color: #ffffff;
+						color: #000000;
 						position: relative;
 						z-index: 1;
-						border: #eeeeee;
 						border-style: solid;
 						background-color: slategrey;
 						border-width: 2px;
@@ -1859,3 +1868,68 @@ input, select, textarea {
   opacity: 1;
   visibility: visible;
 }
+
+.hero_area {
+    position: relative;
+    height: 100vh;
+    /* Created with https://www.css-gradient.com */
+background: #465EAF;
+background: -webkit-linear-gradient(top left, #465EAF, #250E7A);
+background: -moz-linear-gradient(top left, #465EAF, #250E7A);
+background: linear-gradient(to bottom right, #465EAF, #250E7A);;
+
+}
+
+.waves {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+    .waves {
+        height: 15vh;
+        min-height: 40px;
+    }
+}
+
+/* Waves Animation end*/
