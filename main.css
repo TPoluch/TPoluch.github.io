@@ -1961,7 +1961,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
   width: 0;
   opacity: 1;
   white-space: nowrap;
-  transition: all .5s;
+  transition: all .25s;
   box-sizing: border-box;
   background-color: rgba(0,0,0,0.1);
   border-radius: 4px;
@@ -1978,7 +1978,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 	background-color: #ff9900;
 	color: #ffffff;
 	border-radius: 25px;
-	transition: all 1s;
+	transition: all .25s;
 	box-shadow: 0 0 .5rem #ffffff;
 
 }
@@ -1986,7 +1986,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 .projects-list li:hover:after {
   width: 75px;
   opacity: 1;
-	transition-delay: 0.75s;
+	transition-delay: 0.25s;
 }
 
 /*.projects-list .Python {*/
