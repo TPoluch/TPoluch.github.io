@@ -1146,11 +1146,6 @@ background: linear-gradient(337deg, rgba(125,125,125,1) 0%, rgba(107,107,107,1) 
 			background-repeat: no-repeat,
  repeat;
 			z-index: 2;
-			/* Created with https://www.css-gradient.com */
-background: #465EAF;
-background: -webkit-linear-gradient(top left, #465EAF, #250E7A);
-background: -moz-linear-gradient(top left, #465EAF, #250E7A);
-background: linear-gradient(to bottom right, #465EAF, #250E7A);;
 		}
 #particles-js {
   position: fixed;
