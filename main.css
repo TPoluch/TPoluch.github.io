@@ -229,7 +229,7 @@ input, select, textarea {
 
 		h1 {
 			font-size: 1.75rem;
-			line-height: 1.4;
+    line-height: 1.4;
 		}
 
 		h2 {
@@ -1152,26 +1152,26 @@ input, select, textarea {
 
 .bubbly-button {
   display: block;
-	color: #ffffff;
-					min-width: 7.5rem;
-					height: 2.75rem;
-					line-height: 2.75rem;
-					padding: 0 0rem 0 0rem;
-					text-transform: uppercase;
-					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
-					border-bottom: 0;
-								border-style: solid;
-					margin: 0 0px 0rem 0px;
-			border-width: 1px;
-			    border-color: #fe403e;
-			max-width: 100%;
-			box-shadow: 0 5px 1rem #000000;
-		
-	border-radius: 25px;
-    font-weight: bold;
+    color: #ffffff;
+    min-width: 7.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 0rem 0 0rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    border-bottom: 0;
+    border-style: solid;
+    margin: 0 0px 0rem 0px;
+    border-width: thin;
+    border-color: rgb(255 0 87);
+    max-width: 100%;
+    box-shadow: 0 5px 1rem #000000;
+    border-radius: 25px;
+    font-weight: 200;
     backdrop-filter: blur(15px);
-	-webkit-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    font-weight: 100;
 }
 .bubbly-button:focus {
 
@@ -1183,13 +1183,10 @@ input, select, textarea {
 	font-weight: bold;
 	font-size: medium;
 	transition-property: all;
-	color: #233657;
-background: #B7B7B7;
-background: -webkit-linear-gradient(top left, #B7B7B7, #DDDDDD);
-background: -moz-linear-gradient(top left, #B7B7B7, #DDDDDD);
-background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
+	color: #ffffff;
+background: rgb(100, 100, 128);
 	position: relative;
-	border-color: rgba(22, 34, 54,.8);
+	border-color: #313ace;
 	border-style: solid;
 	border-width: 2.5px;
 	box-shadow: 0px 0px .7rem  #a8a8a8;
@@ -1396,12 +1393,12 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			}
 
 		#header .content {
-			box-shadow: 0 0 15px 3px #ff0000;
-    border-radius: 20px;
+			border-radius: 20px;
     -webkit-backdrop-filter: blur(25px);
-			backdrop-filter: blur(25px);
-    border: #ff403f;
-    border-width: 4px;
+    backdrop-filter: blur(25px);
+    border-color: #ff0043;
+    border-width: 2px;
+    border-style: solid;
 
 		}
 
