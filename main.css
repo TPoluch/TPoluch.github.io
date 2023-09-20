@@ -1396,12 +1396,10 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 
 		#header .content {
 			box-shadow: 0 0 15px 3px #ff0000;
-    border-radius: 200rem;
+    border-radius: 20px;
     backdrop-filter: blur(25px);
-    padding: 7px 5px 5px 5px;
     border: #ff403f;
     border-width: 4px;
-    border-style: groove;
 
 		}
 
