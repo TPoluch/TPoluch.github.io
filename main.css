@@ -94,7 +94,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url(maxim-berg-3E2xgrlNXq4-unsplash.jpg);
+		background-image: url(maxim-berg-3E2xgrlNXq4-unsplash.png);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1139,7 +1139,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
-			    background-image: url(maxim-berg-3E2xgrlNXq4-unsplash.jpg);
+			    background-image: url(maxim-berg-3E2xgrlNXq4-unsplash.png);
 
     background-position: center;
     background-size: cover;
