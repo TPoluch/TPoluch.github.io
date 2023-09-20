@@ -18,7 +18,7 @@ particlesJS('particles-js',
       number: { value: 50, density: { enable: true, value_area: 300
 
       } },
-    color: { value: "#ff003b" },
+    color: { value: "#ff4d00" },
     shape: {
       type: "circle",
 
@@ -38,7 +38,7 @@ particlesJS('particles-js',
     line_linked: {
       enable: true,
       distance: 125,
-      color: "#999999",
+      color: "#a4a4a4" ,
       opacity: .3,
       width: 1
     },
@@ -62,8 +62,8 @@ particlesJS('particles-js',
     },
     modes: {
       grab: { distance: 600, line_linked: { opacity: 1 } },
-      bubble: { distance: 250, size: 3, duration: 1, opacity: .9, color: "#ffffff", speed: 2 },
-      repulse: { distance: 200, duration: .5},
+      bubble: { distance: 250, size: 3, duration: 1, opacity: 1, speed: 2 },
+      repulse: { distance: 200, duration: .3},
       push: { particles_nb: 4 },
       remove: { particles_nb: 2 }
     }
