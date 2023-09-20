@@ -1207,14 +1207,14 @@ background: rgb(100, 100, 128);
 .bubbly-button:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 20%, #fe403e 20%, transparent 30%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fe403e 15%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%);
+  background-image: radial-gradient(circle, #4800ff 20%, transparent 20%), radial-gradient(circle, transparent 20%, #fe403e 20%, transparent 30%), radial-gradient(circle, #FF7500FF 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #FF7500FF 15%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #4800ff 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #FF7500FF 20%, transparent 20%);
   background-size: 15% 15%, 25% 25%, 20% 20%, 25% 25%, 23% 23%, 15% 15%, 20% 20%, 15% 15%, 23% 23%;
 }
 .bubbly-button:after {
   display: none;
 	font-size: 10rem;
   bottom: -75%;
-  background-image: radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fe403e 15%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%);
+  background-image: radial-gradient(circle, #4800ff 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #FF7500FF 15%, transparent 20%), radial-gradient(circle, #4800ff 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #FF7500FF 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%);
   background-size: 20% 20%, 25% 25%, 23% 23%, 25% 25%, 20% 20%, 15% 15%, 25% 25%;
 }
 .bubbly-button:active {
