@@ -1170,7 +1170,8 @@ input, select, textarea {
 		
 	border-radius: 25px;
     font-weight: bold;
-    background-color: rgba(22, 34, 54,.8);;
+    backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
 }
 .bubbly-button:focus {
 
