@@ -94,7 +94,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background-image: url('/Users/anthonypoluch/Documents/Github/TPoluch.github-2.io-main/maxim-berg-3E2xgrlNXq4-unsplash.jpg');
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -199,6 +199,7 @@ input, select, textarea {
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
 		color: #ffffff;
+		fill-opacity: 0.9;
 	}
 
 
@@ -1137,22 +1138,16 @@ input, select, textarea {
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
-			background: rgb(125,125,125);
-background: linear-gradient(337deg, rgba(125,125,125,1) 0%, rgba(107,107,107,1) 23%, rgba(77,77,77,1) 44%, rgba(32,40,53,1) 73%, rgba(13,20,32,1) 100%);
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
-			z-index: 2;
+			    background-image: url(maxim-berg-3E2xgrlNXq4-unsplash.jpg);
+
+    background-position: center;
+    background-size: cover;
 		}
 #particles-js {
   position: fixed;
   width: 100%;
   height: 100%;
 	background-size: cover;
-	background-image: none;
 }
 
 .bubbly-button {
@@ -1169,12 +1164,13 @@ background: linear-gradient(337deg, rgba(125,125,125,1) 0%, rgba(107,107,107,1) 
 								border-style: solid;
 					margin: 0 0px 0rem 0px;
 			border-width: 1px;
-			border-color: #ff9900;
+			    border-color: #fe403e;
 			max-width: 100%;
 			box-shadow: 0 5px 1rem #000000;
-			border-radius: 25px;
-					 font-weight: bold;
-	background-color: rgba(22, 34, 54,.8);
+		
+	border-radius: 25px;
+    font-weight: bold;
+    background-color: rgba(22, 34, 54,.8);;
 }
 .bubbly-button:focus {
 
@@ -1212,14 +1208,14 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 .bubbly-button:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff9900 20%, transparent 30%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff9900 15%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%);
+  background-image: radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 20%, #fe403e 20%, transparent 30%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fe403e 15%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%);
   background-size: 15% 15%, 25% 25%, 20% 20%, 25% 25%, 23% 23%, 15% 15%, 20% 20%, 15% 15%, 23% 23%;
 }
 .bubbly-button:after {
   display: none;
 	font-size: 10rem;
   bottom: -75%;
-  background-image: radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff9900 15%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%), radial-gradient(circle, #ff9900 20%, transparent 20%);
+  background-image: radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fe403e 15%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%);
   background-size: 20% 20%, 25% 25%, 23% 23%, 25% 25%, 20% 20%, 15% 15%, 25% 25%;
 }
 .bubbly-button:active {
@@ -1399,13 +1395,14 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			}
 
 		#header .content {
-			border-style: solid;
-			border-width: 2px;
-			max-width: 100%;
-			backdrop-filter: blur(0.5rem);
-			box-shadow: 0 0 4rem #000000;
-			border-radius: 25px;
-			border-color: #ff9900;
+			box-shadow: 0 0 20px 2px #ff4e00;
+    border-radius: 200rem;
+    backdrop-filter: blur(25px);
+    padding: 7px 5px 5px 5px;
+    border: #0018ff00;
+    border-width: 3px;
+    border-style: groove;
+
 		}
 
 			#header .content .inner {
@@ -1674,15 +1671,12 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 		}
 
 			#main article.active {
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
-				opacity: 1;
-				border-radius: 25px;
-				border: 1.5px solid #ff9900;
-				backdrop-filter: blur(0.5rem);
-				box-shadow: 0 0 10rem #000000;
+				 transform: translateY(0px);
+    opacity: 1;
+    border-radius: 25px;
+    border: 1.5px solid rgb(254, 64, 62);
+    backdrop-filter: blur(4rem);
+    box-shadow: rgb(0, 0, 0) 0px 0px 10rem;
 			}
 
 			#main article .close {
@@ -1826,7 +1820,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 .dropdown-content a:hover {background-color: #3e4b87;
 	color: #eeeeee;
 	box-shadow: 0px 0px 1em .1em #ffffff;
-	border: 2px solid #ff9900;
+	border: 2px solid #fe403e;
 	position: relative;
 }
 
@@ -1835,7 +1829,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-.dropdown:hover .dropbtn {background-color: #ff9900;
+.dropdown:hover .dropbtn {background-color: #fe403e;
 }
 
 .hovertext {
@@ -1870,10 +1864,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
     position: relative;
     height: 100vh;
     /* Created with https://www.css-gradient.com */
-background: #465EAF;
-background: -webkit-linear-gradient(top left, #465EAF, #250E7A);
-background: -moz-linear-gradient(top left, #465EAF, #250E7A);
-background: linear-gradient(to bottom right, #465EAF, #250E7A);;
+background: transparent;
 
 }
 
@@ -1972,7 +1963,7 @@ background: linear-gradient(to bottom right, #465EAF, #250E7A);;
   opacity: 1;
 	padding: 12px;
 	border: 2px solid white;
-	background-color: #ff9900;
+	background-color: #fe403e;
 	color: #ffffff;
 	border-radius: 25px;
 	transition: all .1s;
