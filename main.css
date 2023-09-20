@@ -1395,12 +1395,12 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			}
 
 		#header .content {
-			box-shadow: 0 0 20px 2px #ff4e00;
+			box-shadow: 0 0 15px 3px #ff0000;
     border-radius: 200rem;
     backdrop-filter: blur(25px);
     padding: 7px 5px 5px 5px;
-    border: #0018ff00;
-    border-width: 3px;
+    border: #ff403f;
+    border-width: 4px;
     border-style: groove;
 
 		}
