@@ -1397,7 +1397,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 		#header .content {
 			box-shadow: 0 0 15px 3px #ff0000;
     border-radius: 20px;
-    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     border: #ff403f;
     border-width: 4px;
 
@@ -1468,7 +1468,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 					max-width: 100%;
 					box-shadow: 0 0 1rem #000000;
 					background-color: rgba(0,0,0,0.4);
-					backdrop-filter: blur(0.5rem);
+					-webkit-backdrop-filter: blur(0.5rem);
 					border-radius: 25px;
 					font-weight: bold;
 
@@ -1490,7 +1490,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 					#header nav ul li a:active {
 						background-color: #a8a8a8;
 						color: #242323;
-						backdrop-filter: blur(.75rem);
+						-webkit-backdrop-filter: blur(.75rem);
 						background-color: rgba(0,0,0,0.4);
 					}
 
@@ -1672,7 +1672,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
     opacity: 1;
     border-radius: 25px;
     border: 1.5px solid rgb(254, 64, 62);
-    backdrop-filter: blur(4rem);
+    -webkit-backdrop-filter: blur(4rem);
     box-shadow: rgb(0, 0, 0) 0px 0px 10rem;
 			}
 
