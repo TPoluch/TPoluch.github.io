@@ -1665,7 +1665,6 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			position: left;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(22, 34, 54, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
