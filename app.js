@@ -15,34 +15,36 @@ particlesJS('particles-js',
   
   {
     "particles": {
-      number: { value: 100, density: { enable: true, value_area: 700 } },
-    color: { value: "#ffffff" },
+      number: { value: 50, density: { enable: true, value_area: 300
+
+      } },
+    color: { value: "#ff003b" },
     shape: {
       type: "circle",
-      stroke: { width: 3, color: "#ffffff" },
-      polygon: { nb_sides: 5 },
+
+      polygon: { nb_sides: 3 },
       image: { src: "img/github.svg", width: 130, height: 130 }
     },
     opacity: {
-      value: .3,
+      value: .6,
       random: false,
       anim: { enable: false, speed: 2, opacity_min: .1, sync: false }
     },
     size: {
-      value: 3,
+      value: 2,
       random: false,
       anim: { enable: false, speed: 2, size_min: 2, sync: false }
     },
     line_linked: {
       enable: true,
-      distance: 150,
-      color: "#ffffff",
-      opacity: .6,
+      distance: 125,
+      color: "#999999",
+      opacity: .3,
       width: 1
     },
     move: {
       enable: true,
-      speed: 1,
+      speed: .7,
       direction: "none",
       random: false,
       straight: false,
@@ -60,8 +62,8 @@ particlesJS('particles-js',
     },
     modes: {
       grab: { distance: 600, line_linked: { opacity: 1 } },
-      bubble: { distance: 250, size: 4.5, duration: 1, opacity: 8, speed: 2 },
-      repulse: { distance: 300, duration: .3},
+      bubble: { distance: 250, size: 2.5, duration: 1, opacity: .9, speed: 2 },
+      repulse: { distance: 150, duration: .3},
       push: { particles_nb: 4 },
       remove: { particles_nb: 2 }
     }
