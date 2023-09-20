@@ -1398,6 +1398,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 			box-shadow: 0 0 15px 3px #ff0000;
     border-radius: 20px;
     -webkit-backdrop-filter: blur(25px);
+			backdrop-filter: blur(25px);
     border: #ff403f;
     border-width: 4px;
 
@@ -1469,6 +1470,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 					box-shadow: 0 0 1rem #000000;
 					background-color: rgba(0,0,0,0.4);
 					-webkit-backdrop-filter: blur(0.5rem);
+					backdrop-filter: blur(0.5rem);
 					border-radius: 25px;
 					font-weight: bold;
 
@@ -1491,6 +1493,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
 						background-color: #a8a8a8;
 						color: #242323;
 						-webkit-backdrop-filter: blur(.75rem);
+						backdrop-filter: blur(.75rem);
 						background-color: rgba(0,0,0,0.4);
 					}
 
@@ -1673,6 +1676,7 @@ background: linear-gradient(to bottom right, #B7B7B7, #DDDDDD);
     border-radius: 25px;
     border: 1.5px solid rgb(254, 64, 62);
     -webkit-backdrop-filter: blur(4rem);
+			backdrop-filter: blur(4rem);	
     box-shadow: rgb(0, 0, 0) 0px 0px 10rem;
 			}
 
