@@ -1178,6 +1178,8 @@ input, select, textarea {
 
 }
 .bubbly-button:hover{
+		transition-property: all;
+	position: relative;
 	font-weight: bold;
 	color: #ffffff;
 background: #0f180f;
