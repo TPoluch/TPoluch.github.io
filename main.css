@@ -1165,13 +1165,13 @@ input, select, textarea {
     border-style: solid;
     margin: 0 0px 0rem 0px;
     border-width: thin;
-    border-color: rgb(255 0 87);
+    border-color: rgb(255 255 255);
     max-width: 100%;
     box-shadow: 0 5px 1rem #000000;
     border-radius: 25px;
     font-weight: 200;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     font-weight: 100;
 }
 .bubbly-button:focus {
@@ -1187,7 +1187,7 @@ input, select, textarea {
 	color: #ffffff;
 background: rgb(100, 100, 128);
 	position: relative;
-	border-color: #313ace;
+	border-color: #3a3a3a;
 	border-style: solid;
 	border-width: 2.5px;
 	box-shadow: 0px 0px .7rem  #a8a8a8;
@@ -1207,14 +1207,14 @@ background: rgb(100, 100, 128);
 .bubbly-button:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #4D00DE 20%, transparent 20%), radial-gradient(circle, transparent 20%, #FF0042 20%, transparent 30%), radial-gradient(circle, #E75800 20%, transparent 20%), radial-gradient(circle, #FF0042 20%, transparent 20%), radial-gradient(circle, transparent 10%, #E75800 15%, transparent 20%), radial-gradient(circle, #FF0042 20%, transparent 20%), radial-gradient(circle, #4D00DE 20%, transparent 20%), radial-gradient(circle, #fe403e 20%, transparent 20%), radial-gradient(circle, #E75800 20%, transparent 20%);
+  background-image: radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, transparent 20%, #949494 20%, transparent 30%), radial-gradient(circle, #1e361c 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, transparent 10%, #1e361c 15%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #1e361c 20%, transparent 20%);
   background-size: 15% 15%, 25% 25%, 20% 20%, 25% 25%, 23% 23%, 15% 15%, 20% 20%, 15% 15%, 23% 23%;
 }
 .bubbly-button:after {
   display: none;
 	font-size: 10rem;
   bottom: -75%;
-  background-image: radial-gradient(circle, #4D00DE 20%, transparent 20%), radial-gradient(circle, #FF0042 20%, transparent 20%), radial-gradient(circle, transparent 10%, #E75800 15%, transparent 20%), radial-gradient(circle, #4D00DE 20%, transparent 20%), radial-gradient(circle, #FF0042 20%, transparent 20%), radial-gradient(circle, #E75800 20%, transparent 20%), radial-gradient(circle, #4D00DE 20%, transparent 20%);
+  background-image: radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, transparent 20%, #949494 20%, transparent 30%), radial-gradient(circle, #1e361c 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, transparent 10%, #1e361c 15%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #1e361c 20%, transparent 20%);
   background-size: 20% 20%, 25% 25%, 23% 23%, 25% 25%, 20% 20%, 15% 15%, 25% 25%;
 }
 .bubbly-button:active {
@@ -1395,9 +1395,9 @@ background: rgb(100, 100, 128);
 
 		#header .content {
 			border-radius: 20px;
-    -webkit-backdrop-filter: blur(25px);
-    backdrop-filter: blur(25px);
-    border-color: #ff0043;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    border-color: #ffffff;
     border-width: 2px;
     border-style: solid;
 
