@@ -1178,15 +1178,9 @@ input, select, textarea {
 
 }
 .bubbly-button:hover{
-	min-width: 10rem;
-					height: 3rem;
-					line-height: normal;
 	font-weight: bold;
-	font-size: medium;
-	transition-property: all;
 	color: #ffffff;
 background: #0f180f;
-	position: relative;
 	border-color: #b79a6c;
 	border-style: solid;
 	border-width: 2.5px;
