@@ -1673,9 +1673,9 @@ background: #0f180f;
 				 transform: translateY(0px);
     opacity: 1;
     border-radius: 25px;
-    border: 1.5px solid rgb(254, 64, 62);
-    -webkit-backdrop-filter: blur(4rem);
-			backdrop-filter: blur(4rem);	
+    border: 1.5px solid #a08a67;
+    -webkit-backdrop-filter: blur(3rem);
+			backdrop-filter: blur(3rem);	
     box-shadow: rgb(0, 0, 0) 0px 0px 10rem;
 			}
 
