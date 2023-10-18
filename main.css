@@ -1185,9 +1185,9 @@ input, select, textarea {
 	font-size: medium;
 	transition-property: all;
 	color: #ffffff;
-background: rgb(100, 100, 128);
+background: #0f180f;
 	position: relative;
-	border-color: #192919;
+	border-color: #b79a6c;
 	border-style: solid;
 	border-width: 2.5px;
 	box-shadow: 0px 0px .7rem  #a8a8a8;
@@ -1220,7 +1220,7 @@ background: rgb(100, 100, 128);
 .bubbly-button:active {
   transform: scale(0.9);
   background-color: #a8a8a8;
-	color: #233657;
+	color: #ffffff;
   box-shadow: 0 2px 25px #ffffff;
 }
 .bubbly-button.animate:before {
