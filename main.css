@@ -1830,7 +1830,6 @@ background: #0f180f;
 
 .hovertext {
   position: relative;
-  border-bottom: 1px dotted black;
 }
 
 .hovertext:before {
