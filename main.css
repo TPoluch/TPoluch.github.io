@@ -117,7 +117,6 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
 			}
 
 		}
@@ -139,10 +138,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #0B172F;
 		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
 		line-height: 1.65;
 	}
 
@@ -173,7 +170,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #C4271C;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -1154,25 +1151,23 @@ input, select, textarea {
 .bubbly-button {
   display: block;
     color: #ffffff;
+    text-decoration-thickness: 12rem;
     min-width: 7.5rem;
     height: 2.75rem;
-    line-height: 2.75rem;
-    padding: 0 0rem 0 0rem;
+
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-size: 0.8rem;
+
+    font-size: .8rem;
+    font-weight: 500;
     border-bottom: 0;
     border-style: solid;
-    margin: 0 0px 0rem 0px;
-    border-width: thin;
-    border-color: rgb(255 255 255);
+    border-width: 4px;
+    border-color: #FF3C00;
     max-width: 100%;
-    box-shadow: 0 5px 1rem #000000;
+    box-shadow: 0 5px 1rem #0B2046;
     border-radius: 25px;
-    font-weight: 200;
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    font-weight: 100;
+    background: #F6934C;
+    -webkit-background: #F6934C;
 }
 .bubbly-button:focus {
 
@@ -1182,8 +1177,8 @@ input, select, textarea {
 	position: relative;
 	font-weight: bold;
 	color: #ffffff;
-background: #0f180f;
-	border-color: #b79a6c;
+background: #0B2046;
+	border-color: #FF7A00;
 	border-style: solid;
 	border-width: 2.5px;
 	box-shadow: 0px 0px .7rem  #a8a8a8;
@@ -1203,29 +1198,30 @@ background: #0f180f;
 .bubbly-button:before {
   display: none;
   top: -75%;
-  background-image: radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, transparent 20%, #949494 20%, transparent 30%), radial-gradient(circle, #a08a67 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, transparent 10%, #a08a67 15%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #a08a67 20%, transparent 20%);
+  background-image: radial-gradient(circle, #FF4600 20%, transparent 20%), radial-gradient(circle, transparent 20%, #5D45FF 20%, transparent 30%), radial-gradient(circle, #a08a67 20%, transparent 20%), radial-gradient(circle, #FF7A00 20%, transparent 20%), radial-gradient(circle, transparent 10%, #a08a67 15%, transparent 20%), radial-gradient(circle, #68B5FF 20%, transparent 20%), radial-gradient(circle, #FF4600 20%, transparent 20%), radial-gradient(circle, #5D45FF 20%, transparent 20%), radial-gradient(circle, #FF7A00 20%, transparent 20%);
   background-size: 15% 15%, 25% 25%, 20% 20%, 25% 25%, 23% 23%, 15% 15%, 20% 20%, 15% 15%, 23% 23%;
 }
 .bubbly-button:after {
   display: none;
-	font-size: 10rem;
   bottom: -75%;
-  background-image: radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, transparent 20%, #949494 20%, transparent 30%), radial-gradient(circle, #a08a67 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, transparent 10%, #a08a67 15%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #363636 20%, transparent 20%), radial-gradient(circle, #949494 20%, transparent 20%), radial-gradient(circle, #a08a67 20%, transparent 20%);
+  background-image: radial-gradient(circle, #FF4600 20%, transparent 20%), radial-gradient(circle, transparent 20%, #5D45FF 20%, transparent 30%), radial-gradient(circle, #a08a67 20%, transparent 20%), radial-gradient(circle, #FF7A00 20%, transparent 20%), radial-gradient(circle, transparent 10%, #a08a67 15%, transparent 20%), radial-gradient(circle, #68B5FF 20%, transparent 20%), radial-gradient(circle, #FF4600 20%, transparent 20%), radial-gradient(circle, #5D45FF 20%, transparent 20%), radial-gradient(circle, #FF7A00 20%, transparent 20%);
   background-size: 20% 20%, 25% 25%, 23% 23%, 25% 25%, 20% 20%, 15% 15%, 25% 25%;
 }
 .bubbly-button:active {
   transform: scale(0.9);
-  background-color: #a8a8a8;
 	color: #ffffff;
+	font-weight: bolder;
   box-shadow: 0 2px 25px #ffffff;
 }
 .bubbly-button.animate:before {
   display: block;
-  animation: topBubbles ease-in-out 0.5s forwards;
+  transform: scale(1.2);
+  animation: topBubbles ease-in-out .75s forwards;
 }
 .bubbly-button.animate:after {
   display: block;
-  animation: bottomBubbles ease-in-out 0.5s forwards;
+    transform: scale(1.2);
+  animation: bottomBubbles ease-in-out .75s forwards;
 }
 
 @keyframes topBubbles {
@@ -1391,10 +1387,9 @@ background: #0f180f;
 
 		#header .content {
 			border-radius: 20px;
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
+    background: #163365; -webkit-background: #163365;
     border-color: #ffffff;
-    border-width: 2px;
+    border-width: 6px;
     border-style: solid;
 
 		}
@@ -1487,8 +1482,7 @@ background: #0f180f;
 					#header nav ul li a:active {
 						background-color: #a8a8a8;
 						color: #242323;
-						-webkit-backdrop-filter: blur(.75rem);
-						backdrop-filter: blur(.75rem);
+						backdrop-filter: brightness(.45); -webkit-backdrop-filter: brightness(.45);
 						background-color: rgba(0,0,0,0.4);
 					}
 
@@ -1667,12 +1661,15 @@ background: #0f180f;
 
 			#main article.active {
 				 transform: translateY(0px);
+				 background-filter: brightness(0.5);
     opacity: 1;
     border-radius: 25px;
-    border: 1.5px solid #a08a67;
-    -webkit-backdrop-filter: blur(3rem);
-			backdrop-filter: blur(3rem);	
-    box-shadow: rgb(0, 0, 0) 0px 0px 10rem;
+    border: 6px solid white;
+    -webkit-backdrop-filter: blur(9rem);
+			backdrop-filter: blur(9rem);
+    box-shadow: inset rgb(255 255 255) 0px 0px 20rem 20px;
+    box-shadow: rgb(15 25 46) 0px 0px 20rem 20px;
+;
 			}
 
 			#main article .close {
@@ -1705,6 +1702,7 @@ background: #0f180f;
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
+					background-color: #727272;
 				}
 
 				#main article .close:hover:before {
@@ -1931,7 +1929,7 @@ background: transparent;
   opacity: 1;
   transition: all 0.5s;
 	border-radius: 25px;
-	background-color: #4b4b4b;
+	background-color: #6FB0FF;
 	margin: .4rem;
 }
 
@@ -1957,12 +1955,12 @@ background: transparent;
   z-index: 2;
   opacity: 1;
 	padding: 12px;
-	border: 2px solid #907057;
-	background-color: #172818;
+	border: 2px solid #FF7A00;
+	background-color: #0B2046;
 	color: #ffffff;
 	border-radius: 25px;
 	transition: all .1s;
-	box-shadow: 0 0 .5rem #ffffff;
+	box-shadow: 0 0 .5rem #0B2046;
 margin: 5px;
 }
 
