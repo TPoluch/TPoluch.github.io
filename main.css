@@ -1104,7 +1104,6 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
@@ -1634,7 +1633,8 @@ background: #535353;
 		-ms-flex-direction: column;
         flex-direction: column;
     position: relative;
-    
+    max-width: fit-content;
+    padding: 1rem;
     -webkit-padding: 1rem;
     z-index: 3;
     -webkit-text-shadow: 0px 0px 2rem black;
@@ -1642,10 +1642,7 @@ background: #535353;
     cont
 	}
 
-		#main article {max-height: 100vh;
-  max-width: 75vh
-		margin:1rem;
-    padding: 1rem;
+		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
@@ -1655,7 +1652,9 @@ background: #535353;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
-			       position: fixed;
+			position: left;
+			width: 40rem;
+			max-width: 100%;
 			border-radius: 4px;
 			opacity: 0;
 			backdrop-filter: blur(8rem);
