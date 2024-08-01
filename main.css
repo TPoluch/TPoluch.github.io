@@ -1642,8 +1642,7 @@ background: #535353;
 	}
 
 		#main article {
-			max-width: 100%;
-		max-height: 100%;
+			
 		margin:1rem;
     padding: 1rem;
 			-moz-transform: translateY(0.25rem);
@@ -1656,8 +1655,6 @@ background: #535353;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: left;
-			width: 40rem;
-			max-width: 100%;
 			border-radius: 4px;
 			opacity: 0;
 			backdrop-filter: blur(8rem);
