@@ -1126,6 +1126,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			backdrop-filter: blur(4px);
+			
 		}
 
 		#bg:before {
@@ -1141,6 +1142,8 @@ input, select, textarea {
 
     background-position: center;
     background-size: cover;
+			backdrop-filter: blur(0px);
+			
 		}
 #particles-js {
   position: fixed;
