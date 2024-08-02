@@ -1656,7 +1656,7 @@ background: #535353;
 			  -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-			  border-radius: 4px;
+			  border-radius: 2px;
 			  opacity: 0;
 			  backdrop-filter: blur(8rem);
 			  text-shadow: 0 0 2px black;
