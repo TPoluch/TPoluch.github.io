@@ -1644,22 +1644,21 @@ background: #535353;
 
 		#main article {
 			-moz-transform: translateY(0.25rem);
-			-webkit-transform: translateY(0.25rem);
-			-ms-transform: translateY(0.25rem);
-			transform: translateY(0.25rem);
-			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
-			position: left;
-			width: 40rem;
-			max-width: 100%;
-			border-radius: 4px;
-			opacity: 0;
-			backdrop-filter: blur(8rem);
-    text-shadow: 0 0 2px black;
-    background-color: #0000006e;
+			  -webkit-transform: translateY(0.25rem);
+			  -ms-transform: translateY(0.25rem);
+			  transform: translateY(0.25rem);
+			  -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
+			  -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
+			  -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
+			  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+			  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+			  border-radius: 4px;
+			  opacity: 0;
+			  backdrop-filter: blur(8rem);
+			  text-shadow: 0 0 2px black;
+			  background-color: #0000006e;
+			  max-width: 40rem;
+			  width: 95%;
 		}
 
 			#main article.active {
